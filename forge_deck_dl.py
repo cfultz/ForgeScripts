@@ -54,8 +54,8 @@ def download_image(image_url, card_name, output_dir):
   print(f"Downloaded {file_name}")
 
 # --- Example usage ---
-deck_dir = '/Users/sun3ku/Library/Application Support/Forge/decks/commander'
-output_dir = '/Users/sun3ku/Library/Caches/Forge/pics/cards/'
+deck_dir = '/Users/macbook/Library/Application Support/Forge/decks/commander'
+output_dir = '/Users/macbook/Library/Caches/Forge/pics/cards/'
 
 for filename in os.listdir(deck_dir):
   if filename.endswith('.dck'):
